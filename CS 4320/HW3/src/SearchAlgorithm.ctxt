@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=SearchAlgorithm
+comment1.params=s\ x\ y\ range
+comment1.target=void\ mutate(Hw3.Schedule,\ int,\ int,\ int)
+comment2.params=problem\ deadline
+comment2.target=Hw3.Schedule\ solveGenetic(Hw3.SchedulingProblem,\ long)
+comment3.params=problem\ deadline
+comment3.target=Hw3.Schedule\ solveAnnealing(Hw3.SchedulingProblem,\ long)
+comment4.params=src\ copy
+comment4.target=void\ copy(int[][],\ int[][])
+comment5.params=currentTime\ maximum
+comment5.target=double\ schedule(double,\ double)
+comment6.params=problem\ deadline
+comment6.target=Hw3.Schedule\ naiveBaseline(Hw3.SchedulingProblem,\ long)
+numComments=7

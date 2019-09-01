@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=SolidRock
+comment0.text=\n\ Sample\ agent\ that\ always\ picks\ Rock\ (the\ first\ action).\ Remember\ to\ put\ your\ name\ in\ the\ author\ field,\n\ change\ the\ name\ of\ the\ agent,\ and\ make\ your\ own\ solveGame(MatrixGame,PlayerNumber)\ method.\n\ @author\ Oscar\n\ @version\ 2015.10.04\n
+comment1.params=
+comment1.target=SolidRock()
+comment1.text=Your\ constructor\ should\ look\ just\ like\ this
+comment2.params=
+comment2.target=void\ initialize()
+comment2.text=\n\ Initialize\ is\ called\ at\ beginning\ of\ tournament.\n\ Use\ this\ time\ to\ decide\ on\ a\ strategy\ depending\n\ on\ the\ parameters.\n
+comment3.params=mg\ playerNumber
+comment3.target=games.MixedStrategy\ solveGame(games.MatrixGame,\ int)
+comment3.text=\n\ THIS\ METHOD\ SHOULD\ BE\ OVERRIDDEN\ \n\ GameMaster\ will\ call\ this\ to\ compute\ your\ strategy.\n\ @param\ mg\ The\ game\ your\ agent\ will\ be\ playing\n\ @param\ playerNumber\ Row\ Player\ \=\ 1,\ Column\ Player\ \=\ 2\n
+numComments=4

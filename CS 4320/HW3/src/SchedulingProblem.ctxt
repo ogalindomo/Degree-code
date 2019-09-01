@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=SchedulingProblem
+comment1.params=seed
+comment1.target=SchedulingProblem(long)
+comment2.params=nBuildings\ nRooms\ nCourses
+comment2.target=void\ createRandomInstance(int,\ int,\ int)
+comment3.params=
+comment3.target=Hw3.Schedule\ getEmptySchedule()
+comment4.params=solutionSchedule
+comment4.target=double\ evaluateSchedule(Hw3.Schedule)
+numComments=5

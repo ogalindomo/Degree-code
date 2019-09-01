@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=GamutParser
+comment0.text=\n\ Class\ for\ reading\ a\ game\ from\ a\ file\ in\ the\ Gamut\ "SimpleOutput"\ format\n
+comment1.params=
+comment1.target=GamutParser()
+comment2.params=fileName
+comment2.target=MatrixGame\ readGamutGame(java.lang.String)
+comment2.text=\n\ Read\ in\ a\ game\ specification,\ given\ the\ file\ name\n\ @param\ fileName\ the\ gamut\ file\n\ @return\ the\ game\n
+comment3.params=s
+comment3.target=MatrixGame\ parseGame(java.util.Scanner)
+comment3.text=\n\ Read\ in\ a\ game\ specification,\ given\ a\ scanner\n\ @param\ s\ a\ scanner\n\ @return\ the\ game\n
+numComments=4

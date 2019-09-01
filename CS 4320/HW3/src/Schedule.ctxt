@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Schedule
+comment1.params=nRooms\ nTimeSlots
+comment1.target=Schedule(int,\ int)
+comment2.params=
+comment2.target=void\ print()
+numComments=3

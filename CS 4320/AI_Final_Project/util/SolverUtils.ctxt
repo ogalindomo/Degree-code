@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=SolverUtils
+comment0.text=\n\ Utility\ functions\ for\ game\ solvers\n
+comment1.params=
+comment1.target=SolverUtils()
+comment2.params=a
+comment2.target=void\ normalize(double[])
+comment2.text=\n\ Normalize\ the\ vector\ a\ so\ that\ the\ elements\ sum\ to\ 1\n\n\ @param\ a\ vector\ to\ normalize\n
+comment3.params=g\ outcomeDistribution
+comment3.target=double[]\ computeOutcomePayoffs(games.Game,\ games.OutcomeDistribution)
+comment3.text=\n\ Wrapper\ with\ default\ setting\ for\ ignoreUnsampled\n\n\ @param\ g\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ game\n\ @param\ outcomeDistribution\ distribution\ over\ outcomes\n\ @return\ vector\ of\ payoffs\ to\ each\ player\ in\ the\ given\ outcome\n
+comment4.params=g\ outcomeDistribution\ ignoreUnsampled
+comment4.target=double[]\ computeOutcomePayoffs(games.Game,\ games.OutcomeDistribution,\ boolean)
+comment4.text=\n\ Given\ a\ game\ and\ a\ distribution\ over\ outcomes,\ compute\ the\ expected\ payoffs\ for\ each\ player\n\n\ @param\ g\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ the\ game\n\ @param\ outcomeDistribution\ distribution\ over\ outcomes\n\ @param\ ignoreUnsampled\ \ \ \ \ for\ empirical\ games,\ do\ not\ include\ the\ payoffs\ for\ any\ unsampled\ profiles\n\ @return\ vector\ of\ payoffs\ to\ each\ player\ in\ the\ given\ outcome\n
+comment5.params=a
+comment5.target=double[]\ roundTenths(double[])
+comment5.text=\n\ Rounding\ an\ array\ to\ the\ nearest\ tenths\ place\n\ @param\ a\ array\ to\ round\n\ @return\ rounded\ array\ to\ nearest\ tenths\ place\n
+comment6.params=s1\ s2\ mg
+comment6.target=double[]\ expectedPayoffs(games.MixedStrategy,\ games.MixedStrategy,\ games.MatrixGame)
+comment6.text=\n\ Compute\ Expected\ Payoff\ in\ 2\ player\ game\n\ @param\ s1\ strategy\ for\ player\ 1\n\ @param\ s2\ strategy\ for\ player\ 2\n\ @param\ mg\ matrix\ game\ being\ played\n\ @return\ [player\ 1\ expected\ payoff,\ player\ 2\ expected\ payoff]\ (-1337)\ if\ invalid\n
+numComments=7

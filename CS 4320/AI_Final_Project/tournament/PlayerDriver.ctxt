@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=PlayerDriver
+comment0.text=\n\ Creates\ timed\ threads\ for\ the\ Player.\n\ Called\ by\ GameMaster\ when\ updating\ the\ player\ and\ getting\ the\ player's\ action.\n\ @author\ Marcus\n
+comment1.params=state\ player
+comment1.target=PlayerDriver(PlayerState,\ Player)
+comment1.text=\n\ General\ constructor\n\ @param\ state\ a\ PlayerState\n\ @param\ player\ a\ Player\n
+comment2.params=player
+comment2.target=PlayerDriver(Player)
+comment2.text=\n\ Constructor\ starting\ at\ intialize\n\ @param\ player\ a\ Player\n
+comment3.params=
+comment3.target=void\ run()
+comment3.text=\n\ GameMaster\ will\ create\ a\ thread\ to\ run\ this\ class\ that\ will\ call\ a\ Player\ subclass'\n\ methods.\ Any\ exceptions\ or\ time\ outs\ will\ only\ harm\ this\ thread\ and\ will\ not\ affect\ GameMaster\n
+comment4.params=ms\ payoffs
+comment4.target=void\ saveResults(games.MixedStrategy,\ double[])
+comment4.text=\n\ Save\ the\ results\n\ @param\ ms\ opponent's\ strategy\n\ @param\ payoffs\ the\ expected\ results\n
+comment5.params=
+comment5.target=games.MixedStrategy\ getSolution()
+comment5.text=\n\ Return\ saved\ solution\n\ @return\ saved\ solution\n
+numComments=6

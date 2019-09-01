@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=StrategyHolder
+comment0.text=\n\ Auxiliary\ class\ for\ NFG.\ Keeps\ the\ Strategies\ nice\ and\ organized.\n\ @author\ Oscar\n\n
+comment1.params=
+comment1.target=StrategyHolder()
+comment1.text=\n\ Default\ Constructor\n
+comment2.params=ms\ playerNum
+comment2.target=void\ addStrategy(MixedStrategy,\ int)
+comment2.text=\n\ Store\ a\ strategy\ for\ a\ player\n\ @param\ ms\ A\ strategy\n\ @param\ playerNum\ Row\ Player\ \=\ 1,\ Column\ Player\ \=\ 2\n
+comment3.params=ms
+comment3.target=MixedStrategy\ deepCopy(MixedStrategy)
+comment3.text=\n\ Creates\ a\ deep\ copy\ of\ a\ strategy.\ Avoid\ accidentally\ editing\ a\ reference\ later.\n\ @param\ ms\ Strategy\ to\ be\ copied\n\ @return\ copied\ Strategy\n
+comment4.params=playerNum
+comment4.target=MixedStrategy\ getStrategy(int)
+comment4.text=\n\ Get\ the\ stored\ strategy\ for\ a\ player\n\ @param\ playerNum\ Row\ Player\ \=\ 1,\ Column\ Player\ \=\ 2\n\ @return\ the\ mixed\ strategy\n
+numComments=5

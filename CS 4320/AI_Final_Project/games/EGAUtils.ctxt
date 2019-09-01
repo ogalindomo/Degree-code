@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=EGAUtils
+comment0.text=\n\ Contains\ several\ global\ static\ utilities,\ including\ random\ number\ generation,\ string\ builders,\ formatters,\ etc.\n
+comment1.params=
+comment1.target=java.lang.StringBuilder\ getSB()
+comment2.params=sb
+comment2.target=java.lang.String\ returnSB(java.lang.StringBuilder)
+comment3.params=src\ dst
+comment3.target=void\ copy(java.io.File,\ java.io.File)
+comment4.params=
+comment4.target=EGAUtils()
+numComments=5
