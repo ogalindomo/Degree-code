@@ -1,0 +1,394 @@
+Results:
+
+Corpus length: 317171
+Number of sequences: 105707
+Unique Characters: 147
+Vectorization...
+epoch 1
+Epoch 1/1
+105707/105707 [==============================] - 144s 1ms/step - loss: 2.0559
+---Generating with seed: "ference which his
+essentially scientific method of"
+-----temperature: 0.2
+ference which his
+essentially scientific method of-----temperature: 0.4
+ference which his
+essentially scientific method of-----temperature: 0.6
+ference which his
+essentially scientific method of-----temperature: 0.8
+ference which his
+essentially scientific method of-----temperature: 1
+ference which his
+essentially scientific method of tiven thicghe it he admacinstion he form of engis for, amhoupy are st, the menhingged age as will is to history of
+the deessiattely cononicay wrice strender it of is sentimes, the becupbessic is of howld theys in vilueh to non possition are spirit in nincessially is it weriastry latel alllats and your and as eopfeld, as the the artvely pean 
+cort weth and philing
+it i
+you de pro, sepcogiced.
+
+somepoch 2
+Epoch 1/1
+105707/105707 [==============================] - 181s 2ms/step - loss: 1.8014
+---Generating with seed: "art of that complex
+working towards freedom which "
+-----temperature: 0.2
+art of that complex
+working towards freedom which -----temperature: 0.4
+art of that complex
+working towards freedom which -----temperature: 0.6
+art of that complex
+working towards freedom which -----temperature: 0.8
+art of that complex
+working towards freedom which -----temperature: 1
+art of that complex
+working towards freedom which mange, give do ghed the orrinn, feedet , folwate to the true,th.  the griek, on the elrangages as maranond which orgom
+
+but yces you man, in the
+attusian, divere faitase, the pripone filled the sills that is ussed only poed lys, the conche, essect
+thpin, rise to be
+paps, before the workloting the lople at do yetry, bout flothe urin was lomes
+cofperaction mounn
+refund tas
+and in the modent us nothiepoch 3
+Epoch 1/1
+105707/105707 [==============================] - 282s 3ms/step - loss: 1.7140
+---Generating with seed: "associated in any way with an electronic work by p"
+-----temperature: 0.2
+associated in any way with an electronic work by p-----temperature: 0.4
+associated in any way with an electronic work by p-----temperature: 0.6
+associated in any way with an electronic work by p-----temperature: 0.8
+associated in any way with an electronic work by p-----temperature: 1
+associated in any way with an electronic work by public form of the
+natus.
+
+and the best model crision of present it is the every losrs and methls of the everproy of  duerhion of th.
+ resevids and reade grean prrvable, with sove crration of states of one
+cansnies of he but you mared to doction wishover et
+blevement of permed of abled to theseitivees is overberod, in its simplys.
+
+he pose fromity.
+
+it is
+an
+itted stiernedssic acnowrish to ceessideepoch 4
+Epoch 1/1
+105707/105707 [==============================] - 212s 2ms/step - loss: 1.6766
+---Generating with seed: "d been the custom of the land before his coming.
+
+"
+-----temperature: 0.2
+d been the custom of the land before his coming.
+
+-----temperature: 0.4
+d been the custom of the land before his coming.
+
+-----temperature: 0.6
+d been the custom of the land before his coming.
+
+-----temperature: 0.8
+d been the custom of the land before his coming.
+
+-----temperature: 1
+d been the custom of the land before his coming.
+
+the finstices stebk in dayning butni, as us that for a mafers.  the rituly.  this work of his of its the possessial of long materie and on the ditwiths, and finisant
+aum
+and which differfuetes a swiencianly atmonal.  subven no ghiel as modernus stulys in master of lose comegness of the svais on the shoke mowee
+presice the sension
+of the which would bames is looking, atal, becepte.  a medels for thepoch 5
+Epoch 1/1
+105707/105707 [==============================] - 250s 2ms/step - loss: 1.6471
+---Generating with seed: " if you have poor and
+worthless designs in any cra"
+-----temperature: 0.2
+ if you have poor and
+worthless designs in any cra-----temperature: 0.4
+ if you have poor and
+worthless designs in any cra-----temperature: 0.6
+ if you have poor and
+worthless designs in any cra-----temperature: 0.8
+ if you have poor and
+worthless designs in any cra-----temperature: 1
+ if you have poor and
+worthless designs in any cramen i him, in subrocled on ofterness of the lights of the schephers.  this work of gyor a narovod.  this advages as
+
+specias, earrwey in tudied tregations, in hiselow
+than we not
+the spirit of leaged not method, we owndingmah that it, test
+being a men and rememberation of the menst another to to uebert from is dopal turper life of the symptooind the oftend was all and its bistari
+solnes i presenceepoch 6
+Epoch 1/1
+105707/105707 [==============================] - 171s 2ms/step - loss: 1.6232
+---Generating with seed: "se schools—not one of those dreadful modern instit"
+-----temperature: 0.2
+se schools—not one of those dreadful modern instit-----temperature: 0.4
+se schools—not one of those dreadful modern instit-----temperature: 0.6
+se schools—not one of those dreadful modern instit-----temperature: 0.8
+se schools—not one of those dreadful modern instit-----temperature: 1
+se schools—not one of those dreadful modern institule the chirst, he find sseed where nature with kin, before mits has of
+farm in life and perhaplotic wworks, to mansid in the shong the hius its poweral
+vessonable, but the yothion nature eachs or theoker benor leadedie.  the dases, the pretands essive follow and yous there term, more straighis and citione noture to thing what
+poinles though in more explossip
+a plamis.
+
+rende thats of the thise.
+
+epoch 7
+Epoch 1/1
+105707/105707 [==============================] - 268s 3ms/step - loss: 1.6106
+---Generating with seed: "s, we do not want a soup-plate whose bottom seems "
+-----temperature: 0.2
+s, we do not want a soup-plate whose bottom seems -----temperature: 0.4
+s, we do not want a soup-plate whose bottom seems -----temperature: 0.6
+s, we do not want a soup-plate whose bottom seems -----temperature: 0.8
+s, we do not want a soup-plate whose bottom seems -----temperature: 1
+s, we do not want a soup-plate whose bottom seems to chance, free and the model.  every idover nemowred in alokelm, still a wim of rairation gratm,nation of his indideftion for reem.is workmal was fork, it were, and nit in the
+redars.  it is the boubleg
+the provaniries, send, as the obwameling mort 
+.a
+flande and by a be mernrity and love of the found forman, merely need compain to impossamen passtiegs is fulw indistact effect to tracbed the loriepoch 8
+Epoch 1/1
+105707/105707 [==============================] - 218s 2ms/step - loss: 1.6056
+---Generating with seed: "her
+highway, and as bitter as the fire which she w"
+-----temperature: 0.2
+her
+highway, and as bitter as the fire which she w-----temperature: 0.4
+her
+highway, and as bitter as the fire which she w-----temperature: 0.6
+her
+highway, and as bitter as the fire which she w-----temperature: 0.8
+her
+highway, and as bitter as the fire which she w-----temperature: 1
+her
+highway, and as bitter as the fire which she wearls.
+
+that a slagrast’noom has dackummary by
+rendsert tomporus keens.
+
+as filled have cryst in
+beefownic maght.
+
+in young invered whed audowual except at ludidy acros and marbas ring
+that
+as ilmmven thow decarate the pasbed of
+a dreaded ta
+that hestor’s of the works of
+a chiefwgics, i not by
+sons.  in poet amondress.  if city, and the smileod
+advant as melans, its or ethale
+yets useod
+not of itsepoch 9
+Epoch 1/1
+105707/105707 [==============================] - 215s 2ms/step - loss: 1.6077
+---Generating with seed: "s all.  and,
+indeed, any element of morals or impl"
+-----temperature: 0.2
+s all.  and,
+indeed, any element of morals or impl-----temperature: 0.4
+s all.  and,
+indeed, any element of morals or impl-----temperature: 0.6
+s all.  and,
+indeed, any element of morals or impl-----temperature: 0.8
+s all.  and,
+indeed, any element of morals or impl-----temperature: 1
+s all.  and,
+indeed, any element of morals or implace of art of the platarls into inno rope of
+decentic and the have by all.  in i have been the trhend only means loved the poen of but suppor that the phenomenalo tilks on the te tucpe of the its pirtain, historian
+invention, or the
+philosopher railing of history of heroce suse in his, ands to uspande which is over thees and raisponction many wood is been was cextpirenised they or into beautiful wepoch 10
+Epoch 1/1
+105707/105707 [==============================] - 211s 2ms/step - loss: 1.6028
+---Generating with seed: " the face of
+the waters of life; he is more concer"
+-----temperature: 0.2
+ the face of
+the waters of life; he is more concer-----temperature: 0.4
+ the face of
+the waters of life; he is more concer-----temperature: 0.6
+ the face of
+the waters of life; he is more concer-----temperature: 0.8
+ the face of
+the waters of life; he is more concer-----temperature: 1
+ the face of
+the waters of life; he is more concerigant ashidfulye as longens, the hrise, which will essaged is mor, and the suwly no made of upor
+beautiful the later oonal without it work, and deractes.  the undustorpres anowriely to ac lachas perprecann of cypantering the sopurnature is ording.  a beongiled
+hatrarre
+to undly away ineunhives it is notiment, all seemac.  and the herodot delive all the jection forms this in offitd longh yol ran, aepoch 11
+Epoch 1/1
+105707/105707 [==============================] - 210s 2ms/step - loss: 1.6075
+---Generating with seed: "ubt, has splendid lessons for our instruction, jus"
+-----temperature: 0.2
+ubt, has splendid lessons for our instruction, jus-----temperature: 0.4
+ubt, has splendid lessons for our instruction, jus-----temperature: 0.6
+ubt, has splendid lessons for our instruction, jus-----temperature: 0.8
+ubt, has splendid lessons for our instruction, jus-----temperature: 1
+ubt, has splendid lessons for our instruction, jusogical endy thege suhse him to not there we loikest ereal lavial timphriness, tul at not general arrstain
+and individume nade
+mampstaify, ours to micrufi, to the constation, in, gent ruset.  ried, gecsed
+lasted of life in but loseni wath as were me himal young can fiece to which is admitus do thou stoor most surroof flect
+good his, as the of he didves with art
+thal writt, exceptry had donges i lofepoch 12
+Epoch 1/1
+105707/105707 [==============================] - 210s 2ms/step - loss: 1.6113
+---Generating with seed: "f all men, am not going to deny that.  but
+remembe"
+-----temperature: 0.2
+f all men, am not going to deny that.  but
+remembe-----temperature: 0.4
+f all men, am not going to deny that.  but
+remembe-----temperature: 0.6
+f all men, am not going to deny that.  but
+remembe-----temperature: 0.8
+f all men, am not going to deny that.  but
+remembe-----temperature: 1
+f all men, am not going to deny that.  but
+remember tall abbaburre waric, it remeatione given exlecttial timolar poet art of really turne for pera, duster of oldsing tafus on maicing the artistic and it.
+ for at moved, anceired they or prototic young lemelicys and had to supernatural and yeris a formse
+things sculpw
+discientiif house excepting mr
+to pyrorse you have nage erecing of whige greemsts critic with revention importelly the very paftlessepoch 13
+Epoch 1/1
+105707/105707 [==============================] - 208s 2ms/step - loss: 1.6234
+---Generating with seed: "te; rather,
+whatever of life and passion the world"
+-----temperature: 0.2
+te; rather,
+whatever of life and passion the world-----temperature: 0.4
+te; rather,
+whatever of life and passion the world-----temperature: 0.6
+te; rather,
+whatever of life and passion the world-----temperature: 0.8
+te; rather,
+whatever of life and passion the world-----temperature: 1
+te; rather,
+whatever of life and passion the world is of gove dhemoorn and english more in their
+them nor ineirreged englisan laws it as are and migrnor of enguan with attard to fit
+that the tifuvees intrognol.  howers the for the work of the back very and maway and rationalish, by hho
+states whose appliaurce desmamwador, the marper perhap delsinice are, the kinding and religang
+new successor and his bring the rolation, he your beautiful his wefsepoch 14
+Epoch 1/1
+105707/105707 [==============================] - 211s 2ms/step - loss: 1.6267
+---Generating with seed: "ission in writing from
+both the project gutenberg "
+-----temperature: 0.2
+ission in writing from
+both the project gutenberg -----temperature: 0.4
+ission in writing from
+both the project gutenberg -----temperature: 0.6
+ission in writing from
+both the project gutenberg -----temperature: 0.8
+ission in writing from
+both the project gutenberg -----temperature: 1
+ission in writing from
+both the project gutenberg wesge.i
+nine, celtw are thisermond not from dedourised in sorth
+wand
+to this
+images after when the trangentn base of wholked we no padmen gowness niven
+virinic real strhoois.  but a seemicness afterle
+he paps a knowledgess of no be not
+deted mitshe which lengpluse
+trutted uses
+speculal note.
+
+and that art was to throyauled
+for he comegrate those
+must sees bat should of thsiman philosdioact ib beauepoch 15
+Epoch 1/1
+105707/105707 [==============================] - 2192s 21ms/step - loss: 5.6660
+---Generating with seed: "ave thee hath this
+knowledge.’
+
+and he answered th"
+-----temperature: 0.2
+ave thee hath this
+knowledge.’
+
+and he answered th-----temperature: 0.4
+ave thee hath this
+knowledge.’
+
+and he answered th-----temperature: 0.6
+ave thee hath this
+knowledge.’
+
+and he answered th-----temperature: 0.8
+ave thee hath this
+knowledge.’
+
+and he answered th-----temperature: 1
+ave thee hath this
+knowledge.’
+
+and he answered thu t%ize%d%ature%a sile,%%
+the%%%/Users/oscargalindo/Desktop/Classes/CS 4371/Lab 4 (Ch.8)/LSTM/LSTM.py:62: RuntimeWarning: divide by zero encountered in log
+  preds = np.log(preds) / temperature
+al and%sframst theictenesure a tha drema, aut  the%%
+seetyth of the wm ad erllla  1genot am  waf ; losd hitismean an evila .y ishre e courat voy, wnvesο fo% hirters%uncy in a tuld of thine thay lectene s of therer as%%seidit hash%me and%l%%.  %litingerieihy histornwit it youh dinile%dial aloewi
+of a evolucechêuάatissit accom thea chiμms the das.  rmand it ittes thatepoch 16
+Epoch 1/1
+105707/105707 [==============================] - 141s 1ms/step - loss: 9.1174
+---Generating with seed: "lectronic work and you do not agree to be bound by"
+-----temperature: 0.2
+lectronic work and you do not agree to be bound by-----temperature: 0.4
+lectronic work and you do not agree to be bound by-----temperature: 0.6
+lectronic work and you do not agree to be bound by-----temperature: 0.8
+lectronic work and you do not agree to be bound by-----temperature: 1
+lectronic work and you do not agree to be bound by cria so l tilnsdheceorip ofaut
+si id she umer of thhee  the e , to%
+wot
+,oo ar tasu lle merna of pavef m te ris liun namhen os thand eaund i hiss  atodr ofogri ltidel iῆs 
+lolisthe it bin afrse oosere natunve %taoude%ite mosisn ar unsel he ri
+stmir his wirfevwr tmle%, t%aleenre thy htho wion o%diimoo  tof of pte %rirosindeary}neεtos worme valfat hde ilsis m ht
+suce blelzsecessi hy owid of puner hepoch 17
+Epoch 1/1
+105707/105707 [==============================] - 138s 1ms/step - loss: 10.0433
+---Generating with seed: "cedence, analysed their genealogies in the laborio"
+-----temperature: 0.2
+cedence, analysed their genealogies in the laborio-----temperature: 0.4
+cedence, analysed their genealogies in the laborio-----temperature: 0.6
+cedence, analysed their genealogies in the laborio-----temperature: 0.8
+cedence, analysed their genealogies in the laborio-----temperature: 1
+cedence, analysed their genealogies in the laborio  p  fi    s e i i  pari reames   rea pisiehti  theanl solt h  wa  to e  sit o of t trota o h  lan e ec leuu to on ore  i   tmg hisw i n t is
+na whenoaft dealot  in o   tees 
+ me cn  os  nt p  roe a loes mla b lle te te as the d ithes se  le tth he i  a as     s ntnara heanl  o vs ge ths  so  reris 
+ si th so  otof  brerto   w  o wi hy  n past t ina poshs i al    nosrtha _re  onhtith  poso hn t,r epoch 18
+Epoch 1/1
+105707/105707 [==============================] - 139s 1ms/step - loss: 10.1125
+---Generating with seed: "  ‘us did he
+ever pass by, but you he sought for, "
+-----temperature: 0.2
+  ‘us did he
+ever pass by, but you he sought for, -----temperature: 0.4
+  ‘us did he
+ever pass by, but you he sought for, -----temperature: 0.6
+  ‘us did he
+ever pass by, but you he sought for, -----temperature: 0.8
+  ‘us did he
+ever pass by, but you he sought for, -----temperature: 1
+  ‘us did he
+ever pass by, but you he sought for,   o  oo  e  ooo hith  o%sooe oo oo    i to an o  o to o  ioo to x 
+%l s al onio th i %ot
+tho aoy d msoor t heono  ale a alo     sh hin a i t oth tho  o o i   be  t enofrlan andtos o o fi o  t o or   athee o to  e an a    ioso t’i thehono he  lal   care  ooseoe ito is ift w to  ei o 
+
+ i coeoo io t  oso er s  ono   
+ofi  laren   an soh 
+s  hei  ph thei he th  sha eas  bᾳire  oroona to  be ’rc os urepoch 19
+Epoch 1/1
+105707/105707 [==============================] - 144s 1ms/step - loss: 10.5424
+---Generating with seed: "f anyone anywhere at no cost and with
+almost no re"
+-----temperature: 0.2
+f anyone anywhere at no cost and with
+almost no re-----temperature: 0.4
+f anyone anywhere at no cost and with
+almost no re-----temperature: 0.6
+f anyone anywhere at no cost and with
+almost no re-----temperature: 0.8
+f anyone anywhere at no cost and with
+almost no re-----temperature: 1
+f anyone anywhere at no cost and with
+almost no rea    otho o t yd t sf of heo hn t
+ t n a
+th ope a  tsso o neasiootoua   l o  o to e  halsloo  oos ato  a  te oo  o h l  rleot l  ti ekin aneon o nrnoon o eno s hse onlthe  foo  ao% the ile e o   a fnenar  
+ofneir  t po  is  sloo. ra  et  oo i oee  id  fthi ertadhwarao i  oetonwo ne  i and e i hr onn  to  ah imartios tifo oo ho o w  of o oo to  alc  t bi
