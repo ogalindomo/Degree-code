@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Backtracking
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=num
+comment2.target=double\ halfSum(int[])
+comment3.params=num\ sum\ index
+comment3.target=boolean\ possible(int[],\ double,\ int)
+numComments=4

@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=sNode
+comment1.params=S\ E\ N
+comment1.target=sNode(java.lang.String,\ float[],\ sNode)
+numComments=2

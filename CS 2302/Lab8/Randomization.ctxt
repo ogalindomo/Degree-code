@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=Randomization
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment10.params=theta
+comment10.target=double\ t(double)
+comment2.params=left\ right
+comment2.target=boolean\ compare(double,\ double)
+comment3.params=left\ right
+comment3.target=boolean\ compare2(double,\ double)
+comment4.params=left\ right
+comment4.target=boolean\ compare3(double,\ double)
+comment5.params=theta
+comment5.target=double\ f(double)
+comment6.params=theta
+comment6.target=double\ g(double)
+comment7.params=theta
+comment7.target=double\ l(double)
+comment8.params=theta
+comment8.target=double\ d(double)
+comment9.params=theta
+comment9.target=double\ p(double)
+numComments=11

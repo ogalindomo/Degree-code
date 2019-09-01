@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=Ogalindo_Lab2
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=n\ m
+comment2.target=int[]\ randomArray(int,\ int)
+comment3.params=A
+comment3.target=boolean\ hasDuplicates(int[])
+comment4.params=array
+comment4.target=boolean\ duplicateEfficient(int[])
+comment5.params=number
+comment5.target=boolean\ selectionSort(int[])
+comment6.params=arr\ low\ high
+comment6.target=int\ partition(int[],\ int,\ int)
+comment7.params=number\ low\ high
+comment7.target=boolean\ quickSort(int[],\ int,\ int)
+comment8.params=number
+comment8.target=boolean\ sorted(int[])
+numComments=9

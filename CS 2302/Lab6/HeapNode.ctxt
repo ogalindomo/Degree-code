@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.target=HeapNode
+comment1.params=word0\ word1\ similarity
+comment1.target=HeapNode(java.lang.String,\ java.lang.String,\ double)
+numComments=2

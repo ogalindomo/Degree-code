@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=hashTableStrings
+comment1.params=n
+comment1.target=hashTableStrings(int)
+comment10.params=origin
+comment10.target=double\ calculation(sNode)
+comment11.params=word
+comment11.target=sNode\ search(java.lang.String)
+comment2.params=S
+comment2.target=int\ h(java.lang.String)
+comment3.params=newWord
+comment3.target=void\ insert(sNode)
+comment4.params=
+comment4.target=void\ newSize()
+comment5.params=newH
+comment5.target=void\ substitute(hashTableStrings)
+comment6.params=
+comment6.target=void\ empty()
+comment7.params=
+comment7.target=void\ nonEmpty()
+comment8.params=
+comment8.target=double\ loadFactor()
+comment9.params=
+comment9.target=double\ standardDev()
+numComments=12

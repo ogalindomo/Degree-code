@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=four_squares
+comment1.params=n\ x\ y\ rad
+comment1.target=void\ draw_squares(int,\ double,\ double,\ double)
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+comment3.params=x\ y\ rad\ ratio\ limit
+comment3.target=void\ circle(double,\ double,\ double,\ double,\ double)
+comment4.params=x\ y\ rad\ ratio
+comment4.target=void\ circleMove(double,\ double,\ double,\ double)
+comment5.params=n\ correction\ coordinates
+comment5.target=void\ squares(int,\ double,\ double[][])
+comment6.params=n\ x\ y\ correctionX\ correctionY
+comment6.target=void\ branches(int,\ double,\ double,\ double,\ double)
+comment7.params=n\ x\ y\ rad
+comment7.target=void\ circles(int,\ double,\ double,\ double)
+numComments=8

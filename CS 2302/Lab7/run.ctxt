@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.params=args
+comment0.target=void\ main(java.lang.String[])
+comment1.params=list\ x\ y\ r
+comment1.target=void\ drawList(GraphNode[],\ double,\ double,\ double)
+comment10.params=MST
+comment10.target=void\ printMST(GraphNode)
+comment2.params=firstWord\ secondWord
+comment2.target=double\ processSimilar(java.lang.String,\ java.lang.String)
+comment3.params=line
+comment3.target=void\ processInput(java.lang.String)
+comment4.params=firstWord\ secondWord
+comment4.target=double\ sim(java.lang.String,\ java.lang.String)
+comment5.params=
+comment5.target=void\ toArray()
+comment6.params=
+comment6.target=void\ processSimilarities()
+comment7.params=
+comment7.target=GraphNode\ createStart()
+comment8.params=start
+comment8.target=GraphNode\ KruskalMST(GraphNode)
+comment9.params=word
+comment9.target=int\ index(java.lang.String)
+numComments=11

@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=Heap
+comment1.params=capacity
+comment1.target=Heap(int)
+comment2.params=node
+comment2.target=void\ insert(HeapNode)
+comment3.params=
+comment3.target=HeapNode\ extractMin()
+numComments=4

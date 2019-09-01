@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=run
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=firstWord\ secondWord
+comment2.target=double\ processSimilar(java.lang.String,\ java.lang.String)
+comment3.params=firstWord\ secondWord
+comment3.target=double\ findSimilarities(java.lang.String,\ java.lang.String)
+comment4.params=line
+comment4.target=void\ processInput(java.lang.String)
+comment5.params=
+comment5.target=void\ toArray()
+comment6.params=
+comment6.target=void\ processSimilarities()
+comment7.params=n
+comment7.target=void\ processes(int)
+comment8.params=word
+comment8.target=int\ index(java.lang.String)
+numComments=9

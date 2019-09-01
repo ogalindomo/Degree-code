@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=DSF
+comment1.params=n
+comment1.target=DSF(int)
+comment10.params=root
+comment10.target=void\ elementsWithRoot(int)
+comment11.params=
+comment11.target=void\ printdsf()
+comment2.params=i\ j
+comment2.target=int\ union_by_size(int,\ int)
+comment3.params=
+comment3.target=void\ print()
+comment4.params=i
+comment4.target=int\ find_c(int)
+comment5.params=m
+comment5.target=void\ largestClusters(int)
+comment6.params=
+comment6.target=void\ setMax()
+comment7.params=
+comment7.target=void\ copyS()
+comment8.params=
+comment8.target=void\ erase()
+comment9.params=
+comment9.target=void\ newMax()
+numComments=12

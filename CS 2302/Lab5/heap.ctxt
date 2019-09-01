@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=heap
+comment1.params=n
+comment1.target=heap(int)
+comment2.params=k
+comment2.target=int\ insert(int)
+comment3.params=
+comment3.target=int\ extractMin()
+numComments=4
