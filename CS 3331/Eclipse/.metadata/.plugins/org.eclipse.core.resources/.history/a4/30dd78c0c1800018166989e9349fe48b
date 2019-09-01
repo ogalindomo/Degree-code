@@ -1,0 +1,276 @@
+ import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.FlowLayout;
+import java.awt.Font;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import javax.sound.sampled.*;
+import java.io.*;
+import javax.swing.*;
+
+
+/**
+ * Frame class for the graphical user interface of connect five.
+ * Controller for handling events that affect the model and the view.
+ *
+ * @author Edgar Padilla
+ * @Co-authors: Oscar Galindo Mario Delgado: 
+ */
+@SuppressWarnings("serial")
+public class ConnectFive extends JFrame
+{
+
+    /**
+     * Board model
+     */
+    private Board board;
+    /**
+     * Label containing message to user
+     */
+    private JLabel message;
+    /**
+     * Panel for the <code>board<code> to be displayed on the GUI
+     * frame.
+     */
+    private BoardPanel boardPanel;
+
+    /**
+     * Boolean that indicates if a game is currently being played
+     */
+    private boolean playing;
+
+    /**
+     * Constructor that initializes and adds all the components of the frame
+     * including anonymous classes for the handlers.
+     */
+    public ConnectFive()
+    {
+        setTitle("Connect Five");
+        setResizable(false);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        getContentPane().setLayout(new BorderLayout());
+
+        //adding buttons (top)
+        JPanel  boardSizePanel = new JPanel(new FlowLayout());
+        JButton largeBoard = new JButton("Board Size (15x15)");
+        JButton smallBoard = new JButton("Board Size (9x9)");
+        JButton playGame = new JButton("Play Game");
+        for (JButton button: new JButton[] { largeBoard, smallBoard, playGame })
+        {
+            button.setFocusPainted(true);
+            boardSizePanel.add(button);
+        }
+        getContentPane().add(boardSizePanel, BorderLayout.NORTH);
+        board = new Board(15);
+        playing = false;
+
+        //create Board GUI instance (center)
+        boardPanel = new BoardPanel(board); //initializing the panel for the model
+        boardPanel.setPreferredSize(new Dimension(670, 670));
+        getContentPane().add(boardPanel, BorderLayout.CENTER);
+
+        //creating message label (bottom)
+        JPanel statusPanel = new JPanel();
+        statusPanel.setBackground(Color.DARK_GRAY);
+        statusPanel.setPreferredSize(new Dimension(670, 50));
+        message = new JLabel("Welcome to Connect Five");
+        message.setForeground(Color.WHITE);
+        message.setFont(new Font(message.getName(), Font.BOLD, 28));
+        statusPanel.add(message);
+        getContentPane().add(statusPanel, BorderLayout.SOUTH);
+
+        //Actions for the three different buttons.
+        //Actions for (15x15) button
+        largeBoard.addActionListener(e ->
+        {buttonSound();
+          if(!playing)
+         {
+             board = new Board(15);
+             boardPanel = new BoardPanel(board);
+             message.setText("15x15"); //initializing the panel for the model
+             boardPanel.repaint();
+             getContentPane().add(boardPanel);
+          }
+         else if(playing)
+         {
+           int input = JOptionPane.showConfirmDialog(null, "Will you like to start a new game?");
+            // 0=yes, 1=no, 2=cancel
+           if(input == 0)
+           {
+              board = new Board(15);
+              boardPanel = new BoardPanel(board);
+              boardPanel.setPlaying(true);
+              boardPanel.repaint();
+              getContentPane().add(boardPanel);
+              playing = true;
+              play();
+           }
+         }
+        });
+        
+        //Actions for (9x9) button
+        smallBoard.addActionListener(e ->
+        { buttonSound();
+          if(!playing)
+          {
+        	 
+             board = new Board(9);
+             boardPanel = new BoardPanel(board);
+             boardPanel.repaint();
+             message.setText("9x9"); //initializing the panel for the model
+             getContentPane().add(boardPanel);
+          }
+          else if (playing)
+          {
+            int input = JOptionPane.showConfirmDialog(null, "Will you like to start a new game?");
+            // 0=yes, 1=no, 2=cancel
+            if(input == 0)
+           {
+              board = new Board(9);
+              boardPanel = new BoardPanel(board);
+              boardPanel.setPlaying(true);
+              playing = true;
+              boardPanel.repaint();
+              getContentPane().add(boardPanel);
+              play();
+           }
+          }
+        });
+        
+        //Actions for play game button
+         playGame.addActionListener(e ->
+        {
+           if(playing)
+           {
+             play();
+           }
+           else if(!playing)
+           {
+             playing = true;
+             play();
+             boardPanel.setPlaying(true);
+            }
+        });
+         message.setText("Please choose your table mode.");
+
+
+        // Handler for user input when placing a disc on the grid.
+        //anonymous class declaration (MouseAdapter is not a functional interface, we cannot use lambda expression)(need to do it the old way)
+        boardPanel.addMouseListener(new MouseAdapter()
+        {
+            public void mousePressed(MouseEvent e)
+            {
+                if(playing)
+                {
+                  board.addDisk(e.getX(), e.getY());
+                  play();
+                  boardPanel.drawBoard();
+                  getContentPane().add(boardPanel);               
+                }
+                else if(!playing)
+                {
+                  message.setFont(new Font(message.getName(), Font.BOLD, 22));
+                  message.setText("Please choose a new game board and press 'play game'.");
+                }
+            }//end mouse pressed
+        });
+    }//end constructor
+
+    /**
+     * Initializes the frame for the GUI and starts the application.
+     */
+    public static void main(String[] args)
+    {
+        ConnectFive cf = new ConnectFive();
+        cf.setVisible(true);
+        cf.pack();
+    }
+
+    /**
+     * Initializes the game sequence and checks the status after selection of discs.
+     */
+    public void play()
+    {
+        if(board.getNumberOfDisks() == (board.size()*board.size()))
+        {
+            message.setText("It is a Tie!");
+        }
+        else
+        {
+            message.setFont(new Font(message.getName(), Font.BOLD, 28));
+            int status = board.getStatus();
+            if(status == 1)
+            {
+               message.setText("Outside of boundaries location, try again.");
+               getContentPane();
+            }
+            else if(status == 2)
+               message.setText("Coordinate already used, try again.");
+            else if (status == 3)
+            {
+               message.setText("Congratulations Player 1, you won!");
+               playWinSound();
+               playing = false;
+            }
+            else if(status == 4)
+            {
+               message.setText("Congratulations Player 2, you won!");
+               playWinSound();
+               playing = false;
+            }
+            else if(status == 0)
+            {
+               diskAddedsound();
+               if(board.getNumberOfDisks() % 2 == 0) {message.setText("Player 1 please choose a new position!");}
+               else if (board.getNumberOfDisks() % 2 == 1) {message.setText("Player 2 please choose a new position!");}
+            }
+        }
+    }
+
+    /**
+     * Initializes the sound that indicates a player has won.
+     */
+    public void playWinSound()
+    {
+       try{
+           AudioInputStream audioIn = AudioSystem.getAudioInputStream(new File ("bellringing.wav"));
+           Clip clip = AudioSystem.getClip();
+           clip.open(audioIn);
+           clip.start();
+           
+       }
+       catch(UnsupportedAudioFileException | IOException | LineUnavailableException e1){
+           System.out.println("Selected Audio File is not compatible.");};
+    }
+    
+    /**
+     * Initializes the sound that indicates a button has been pressed.
+     */
+    public void buttonSound()
+    {
+       try{
+           AudioInputStream audioIn = AudioSystem.getAudioInputStream(new File ("Button.wav"));
+           Clip clip = AudioSystem.getClip();
+           clip.open(audioIn);
+           clip.start();
+       }
+       catch(UnsupportedAudioFileException | IOException | LineUnavailableException e1){
+           System.out.println("Selected Audio File is not compatible.");};
+    }
+    
+    /**
+     * Initializes the sound that indicates a disk has been set in the table.
+     */
+    public void diskAddedsound()
+    {
+       try{
+           AudioInputStream audioIn = AudioSystem.getAudioInputStream(new File ("diskplacement.wav"));
+           Clip clip = AudioSystem.getClip();
+           clip.open(audioIn);
+           clip.start();
+       }
+       catch(UnsupportedAudioFileException | IOException | LineUnavailableException e1){
+           System.out.println("Selected Audio File is not compatible.");};
+    }
+}

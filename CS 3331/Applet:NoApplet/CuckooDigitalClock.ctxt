@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=CuckooDigitalClock
+comment0.text=\n\ \ Sample\ NoApplet\ to\ display\ the\ current\ time\ continuously.\n\ \ See\ Section\ 4.7\ on\ pages\ 149-154.\n
+comment1.params=args
+comment1.target=CuckooDigitalClock(java.lang.String[])
+comment2.params=g
+comment2.target=void\ paint(java.awt.Graphics)
+numComments=3

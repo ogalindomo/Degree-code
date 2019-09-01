@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Clock
+comment0.text=\n\ \ Sample\ NoApplet\ to\ display\ the\ current\ time\ continuously.\n\ \ See\ Section\ 4.7\ on\ pages\ 149-154.\n
+comment1.params=args
+comment1.target=Clock(java.lang.String[])
+comment2.params=
+comment2.target=void\ start()
+comment2.text=Start\ the\ timer.
+comment3.params=
+comment3.target=void\ stop()
+comment3.text=Stop\ the\ timer\ to\ prevent\ from\ wasting\ CPU\ time.
+comment4.params=g
+comment4.target=void\ paint(java.awt.Graphics)
+comment4.text=Display\ the\ current\ time.
+comment5.params=args
+comment5.target=void\ main(java.lang.String[])
+numComments=6

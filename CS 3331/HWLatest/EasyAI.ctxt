@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=EasyAI
+comment0.text=\n\ Class\ for\ the\ implementation\ of\ an\ easy\ AI\n\n\ @author\ Oscar\ Galindo,\ Mario\ Delgado\n
+comment1.params=board
+comment1.target=EasyAI(Board)
+comment1.text=\ \n\ \ Constructor\ for\ the\ AI\n\ \ @param\ Board\ board\ (instance\ of\ the\ board\ used\ for\ the\ game)/\n
+comment2.params=
+comment2.target=void\ makeMove()
+comment2.text=\n\ \ Performs\ a\ move\ if\ the\ coordinates\ selected\ by\ the\ execution\ are\ not\ used.\n
+comment3.params=
+comment3.target=void\ getCoordinates()
+comment3.text=\n\ \ Obtains\ the\ x\ and\ y\ components\ of\ the\ coordinate\ that\ AI\ will\ use\ to\ put\ a\ disk.\n
+comment4.params=board
+comment4.target=void\ setBoard(Board)
+comment4.text=\n\ \ Setter\ of\ the\ instance\ board\n\ \ @param\ Board\ board\ (represents\ the\ instance\ of\ the\ board\ that\ is\ currently\ used\ in\ execution).\n
+numComments=5

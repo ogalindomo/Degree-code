@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=coordinatex\ coordinatey\ paint\ r\ changex\ changey
+comment0.target=void\ set(int,\ int,\ java.awt.Color,\ int,\ int,\ int)
+comment1.params=
+comment1.target=int\ getx()
+comment2.params=
+comment2.target=int\ gety()
+comment3.params=
+comment3.target=int\ getr()
+comment4.params=
+comment4.target=int\ getdx()
+comment5.params=
+comment5.target=int\ getdy()
+comment6.params=newx
+comment6.target=void\ setx(int)
+comment7.params=newy
+comment7.target=void\ sety(int)
+comment8.params=newdx
+comment8.target=void\ setdx(int)
+comment9.params=newdy
+comment9.target=void\ setdy(int)
+numComments=10

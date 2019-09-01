@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=r\ d\ centerX\ centerY\ angle\ c\ change\ numberOfMoons
+comment0.target=Planet(int,\ int,\ int,\ int,\ int,\ java.awt.Color,\ int,\ int)
+comment1.params=g
+comment1.target=void\ appear(java.awt.Graphics)
+comment2.params=x\ y
+comment2.target=void\ setPosition(int,\ int)
+comment3.params=
+comment3.target=void\ updateAngle()
+comment4.params=numberOfMoons
+comment4.target=void\ setMoons(int)
+comment5.params=
+comment5.target=int\ calcX()
+comment6.params=
+comment6.target=int\ calcY()
+comment7.params=
+comment7.target=int\ getX()
+comment8.params=
+comment8.target=int\ getY()
+numComments=9

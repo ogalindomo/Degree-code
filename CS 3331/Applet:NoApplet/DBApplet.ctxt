@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=DBApplet
+comment0.text=\ \n\ Double-buffered\ scrolling\ banner.\ See\ Section\ 5.5.3\ on\ page\ 194.\n
+comment1.params=args
+comment1.target=DBApplet(java.lang.String[])
+comment2.params=g
+comment2.target=void\ update(java.awt.Graphics)
+comment3.params=g
+comment3.target=void\ paint(java.awt.Graphics)
+numComments=4

@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=AI
+comment1.params=
+comment1.target=void\ makeMove()
+comment1.text=Contract-method\ that\ forces\ the\ AI\ to\ implement\ a\ method\ to\ perform\ a\ choice\ of\ disk.
+comment2.params=
+comment2.target=void\ getCoordinates()
+comment2.text=Conctract-method\ that\ forces\ the\ AI\ to\ implement\ a\ method\ in\ which\ coordinates\ to\ be\ played\ are\ generated.
+comment3.params=board
+comment3.target=void\ setBoard(Board)
+comment3.text=Contract-method\ that\ forces\ the\ AI\ to\ implement\ a\ method\ to\ receive\ the\ board\ to\ which\ the\ execution\ changed\ to\ play.
+numComments=4

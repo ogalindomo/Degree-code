@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=HelloFromRabbit
+comment0.text=\n\ Sample\ NoAppet\ to\ draw\ a\ text\ and\ an\ image.\ The\ displayed\ image\n\ is\ obtained\ from\ the\ file\ <code>src/image/rabbit.jpg</code>.\n\ See\ Section\ 3.3.2\ on\ pages\ 67-72.\n
+comment1.params=
+comment1.target=HelloFromRabbit()
+comment2.params=params
+comment2.target=HelloFromRabbit(java.lang.String[])
+comment3.params=g
+comment3.target=void\ paint(java.awt.Graphics)
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5

@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.target=Control
+comment0.text=\n\ Control\ structure\ of\ the\ ConnectFive\ Game.\n\n\ @author\ Oscar\ Galindo,\ Mario\ Delgado\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=visibility
+comment2.target=Control(boolean)
+comment3.params=
+comment3.target=void\ colorChange()
+comment3.text=\n\ \ Implements\ the\ color\ change\ algorithm\ for\ everyplayer.\n
+comment4.params=colorReceived
+comment4.target=void\ setColor(java.lang.String)
+comment4.text=\n\ \ Method\ that\ sets\ the\ colors\ of\ the\ player\ that\ is\ non-local\ to\ this\ system.\n\ \ @param\ String\ colorReceived\ (String\ name\ of\ the\ color\ choose\ by\ the\ other\ player).\n
+comment5.params=answer
+comment5.target=void\ setNames(java.lang.String)
+comment5.text=\n\ \ Method\ that\ sets\ the\ appropiate\ order\ of\ names\ depending\ on\ your\ joined\ or\ host\ status.\n\ \ @param\ String\ answer\ (name\ received\ as\ that\ of\ other\ player).\n
+comment6.params=
+comment6.target=void\ disconnectionProtocol()
+comment6.text=\n\ \ Generic\ disconnection\ protocol\ for\ the\ TCP\ connection.\n
+numComments=7

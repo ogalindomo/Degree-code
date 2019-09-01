@@ -1,0 +1,131 @@
+!SESSION 2018-07-05 18:30:58.515 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=10.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/oscargalindo/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/oscargalindo/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-07-05 18:31:28.807
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2018-07-05 18:32:26.851 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=10.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/oscargalindo/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/oscargalindo/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-07-05 18:32:40.820
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2018-07-05 18:59:00.851 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=10.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/oscargalindo/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/oscargalindo/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-07-05 18:59:05.695
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2018-07-05 19:16:16.803
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2018-07-05 19:16:16.803
+!MESSAGE A conflict occurred for ALT+COMMAND+B:
+Binding(ALT+COMMAND+B,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.SkipAllBreakpoints,Skip All Breakpoints,
+		Sets whether or not any breakpoint should suspend execution,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@69351b6c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+COMMAND+B,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.gotoBreadcrumb,Show In Breadcrumb,
+		Shows the Java editor breadcrumb and sets the keyboard focus into it,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1a26d653,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.jdt.ui.breadcrumbEditorScope,,cocoa,system)
+!SESSION 2018-07-05 19:26:27.667 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=10.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/oscargalindo/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/oscargalindo/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-07-05 19:28:43.236
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+!SESSION 2018-07-05 19:29:54.883 -----------------------------------------------
+eclipse.buildId=4.7.3.M20180330-0640
+java.version=10.0.1
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.java.product -keyring /Users/oscargalindo/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.java.product -keyring /Users/oscargalindo/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2018-07-05 19:31:00.302
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.help.base 2 0 2018-07-05 19:55:17.014
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.dtdeditor.doc.user_1.0.700.v201208081537 [456]'. The index should be rebuilt with Lucene 6.1.
+
+!ENTRY org.eclipse.help.base 2 0 2018-07-05 19:55:17.041
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.xmleditor.doc.user_1.0.700.v201707252002 [469]'. The index should be rebuilt with Lucene 6.1.
+
+!ENTRY org.eclipse.help.base 2 0 2018-07-05 19:55:17.042
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.xsdeditor.doc.user_1.0.800.v201707252002 [472]'. The index should be rebuilt with Lucene 6.1.
+
+!ENTRY org.eclipse.help.base 2 0 2018-07-05 19:55:17.043
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.sse.doc.user_1.1.100.v201208081537 [459]'. The index should be rebuilt with Lucene 6.1.
+
+!ENTRY org.eclipse.jdt.ui 4 10001 2018-07-05 19:59:39.102
+!MESSAGE Internal Error
+!STACK 1
+Java Model Exception: Java Model Status [Class.class [in java.lang [in <module:java.base>]] does not exist]
+	at org.eclipse.jdt.internal.core.JavaElement.newNotPresentException(JavaElement.java:560)
+	at org.eclipse.jdt.internal.codeassist.SelectionEngine.selectType(SelectionEngine.java:1557)
+	at org.eclipse.jdt.internal.core.NamedMember.resolveType(NamedMember.java:317)
+	at org.eclipse.jdt.internal.core.NamedMember.resolveType(NamedMember.java:266)
+	at org.eclipse.jdt.internal.ui.viewsupport.JavaElementLinks.resolveType(JavaElementLinks.java:619)
+	at org.eclipse.jdt.internal.ui.viewsupport.JavaElementLinks.parseURI(JavaElementLinks.java:423)
+	at org.eclipse.jdt.internal.ui.viewsupport.JavaElementLinks$1.changing(JavaElementLinks.java:289)
+	at org.eclipse.swt.browser.WebKit.webView_decidePolicyForNavigationAction_request_frame_decisionListener(WebKit.java:1490)
+	at org.eclipse.swt.browser.WebKit.browserProc(WebKit.java:418)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Widget.callSuper(Widget.java:228)
+	at org.eclipse.swt.widgets.Widget.windowSendEvent(Widget.java:2148)
+	at org.eclipse.swt.widgets.Shell.windowSendEvent(Shell.java:2411)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5863)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSendSuper(Native Method)
+	at org.eclipse.swt.widgets.Display.applicationSendEvent(Display.java:5291)
+	at org.eclipse.swt.widgets.Display.applicationProc(Display.java:5441)
+	at org.eclipse.swt.internal.cocoa.OS.objc_msgSend(Native Method)
+	at org.eclipse.swt.internal.cocoa.NSApplication.sendEvent(NSApplication.java:128)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3696)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+!SUBENTRY 1 org.eclipse.jdt.core 4 969 2018-07-05 19:59:39.103
+!MESSAGE Class.class [in java.lang [in <module:java.base>]] does not exist

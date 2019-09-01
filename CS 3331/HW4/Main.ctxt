@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=Main
+comment0.text=\n\ Frame\ class\ for\ the\ graphical\ user\ interface\ of\ connect\ five.\n\ Controller\ for\ handling\ interactions\ between\ the\ view\ components\ and\ the\ model.\n\n\ @author\ Edgar\ Padilla,\ Oscar\ Galindo,\ Mario\ Delgado\:\n\ \ \n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\ \n\ Initializes\ the\ game.\n
+comment2.params=
+comment2.target=void\ playPressed()
+comment2.text=\n\ \ Activates\ the\ conditions\ for\ the\ play\ game\ button.\n
+comment3.params=
+comment3.target=void\ changeName()
+comment4.params=mode
+comment4.target=void\ playMode(java.lang.String)
+comment4.text=\n\ \ Activates\ the\ condition\ for\ the\ mutiplayer/singleplayer\ game\ buttons.\n\ \ @param\ String\ gamemode\ (Indicates\ if\ the\ game\ mode\ selected\ was\ singleplayer).\n
+comment5.params=size
+comment5.target=void\ gameButton(int)
+comment5.text=\n\ \ Activates\ the\ change\ in\ board\ size\ graphically\ and\ logically.\n\ \ @param\ int\ size\ (size\ of\ the\ board\ selected).\n
+comment6.params=
+comment6.target=void\ play()
+comment6.text=\n\ \ Reports\ the\ status\ of\ each\ move\ and\ the\ status\ of\ the\ board,\n\ \ if\ a\ player\ wins\ then\ the\ game\ is\ stopped.\n
+comment7.params=e
+comment7.target=void\ mousePressed(java.awt.event.MouseEvent)
+comment7.text=\n\ \ Initializes\ the\ actions\ to\ take\ when\ the\ mouse\ is\ pressed.\n\ \ @param\ MouseEvent\ e\ (occurs\ when\ the\ mouse\ is\ pressed).\n
+comment8.params=coordinate
+comment8.target=int\ convert(int)
+comment8.text=\ Converts\ the\ graphical\ coordinates\ from\ mousePressed\n\ \ into\ coordinates\ of\ the\ arrays.\n\ \ @param\ int\ coordinate\ (graphical\ coordinate\ detected\ by\ the\ mouse\ listener).\n\ \ @return\ int\ converted\ coordinate.\n
+numComments=9

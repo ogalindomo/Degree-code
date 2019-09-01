@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ init()
+comment0.text=Overridden\ here\ to\ create\ the\ animation\ timer\ and\ a\ balloon.
+comment1.params=
+comment1.target=Balloon\ createBalloon()
+comment1.text=Create\ a\ balloon\ to\ animate.
+comment2.params=g
+comment2.target=void\ paint(java.awt.Graphics)
+comment2.text=Overridden\ here\ to\ draw\ the\ balloon.
+comment3.params=
+comment3.target=void\ start()
+comment3.text=Overridden\ here\ to\ start\ the\ animation\ timer.
+comment4.params=
+comment4.target=void\ stop()
+comment4.text=Overridden\ here\ to\ stop\ the\ animation\ timer.
+comment5.params=
+comment5.target=Balloon\ getBalloon()
+numComments=6

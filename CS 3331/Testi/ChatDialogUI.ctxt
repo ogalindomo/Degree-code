@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=ChatDialogUI
+comment0.text=A\ simple\ chat\ dialog.
+comment1.params=
+comment1.target=ChatDialogUI()
+comment1.text=Create\ a\ main\ dialog.
+comment2.params=dim
+comment2.target=ChatDialogUI(java.awt.Dimension)
+comment2.text=Create\ a\ main\ dialog\ of\ the\ given\ dimension.
+comment3.params=
+comment3.target=void\ configureGui()
+comment3.text=Configure\ UI\ of\ this\ dialog.
+comment4.params=event
+comment4.target=void\ connectClicked(java.awt.event.ActionEvent)
+comment4.text=Callback\ to\ be\ called\ when\ the\ connect\ button\ is\ clicked.
+comment5.params=event
+comment5.target=void\ sendClicked(java.awt.event.ActionEvent)
+comment5.text=Callback\ to\ be\ called\ when\ the\ send\ button\ is\ clicked.
+comment6.params=msg
+comment6.target=void\ warn(java.lang.String)
+comment6.text=Show\ the\ given\ message\ in\ a\ dialog.
+comment7.params=args
+comment7.target=void\ main(java.lang.String[])
+numComments=8

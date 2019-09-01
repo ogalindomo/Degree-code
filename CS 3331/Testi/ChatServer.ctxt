@@ -1,0 +1,21 @@
+#BlueJ class context
+comment0.target=ChatServer
+comment0.text=\n\ A\ simple\ chat\ server\ implemented\ using\ TCP/IP\ sockets.\ A\ client\ can\n\ connect\ to\ this\ server\ and\ send\ messages\ to\ other\ clients.\ The\ chat\n\ server\ receives\ messages\ from\ clients\ and\ broadcast\ them\ to\ all\ the\n\ connected\ clients.\ A\ message\ is\ an\ arbitrary\ text\ and\ is\ also\n\ printed\ on\ stdout.\ The\ default\ port\ number\ is\ 8008.\n\n\ <pre>\n\ \ Usage\:\ java\ ChatServer\n\ </pre>\n\n\ @author\ Yoonsik\ Cheon\n
+comment1.params=
+comment1.target=ChatServer()
+comment1.text=Create\ a\ new\ server.
+comment2.params=
+comment2.target=void\ start()
+comment2.text=Start\ the\ server.
+comment3.params=out
+comment3.target=void\ addClient(java.io.PrintWriter)
+comment3.text=Add\ a\ new\ client\ identified\ by\ the\ given\ print\ writer.
+comment4.params=out
+comment4.target=void\ removeClient(java.io.PrintWriter)
+comment4.text=Add\ the\ client\ with\ given\ print\ writer.
+comment5.params=msg
+comment5.target=void\ broadcast(java.lang.String)
+comment5.text=Broadcast\ the\ given\ text\ to\ all\ clients.
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+numComments=7
