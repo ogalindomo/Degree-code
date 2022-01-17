@@ -1,0 +1,17 @@
+Iterative Closest Point Benchmark v6
+HostOffloadNative= 0 (0=host,1=offload,2=native
+Runtime= 476.233 seconds
+>>>GigaFlops: 20.999
+0: ttotresid: 0.244644
+19: ttotresid: 0.000899585
+argv[0]= './icpdblsoaavx.exe'
+argv[1]= '0'
+argv[2]= '1'
+argv[3]= '500'
+argv[4]= '500'
+19: ttotresid: 0.000899585
+Runtime= 476.233 seconds
+Set of Arrays (SoA) Compilation (aka Structure of Arrays)
+Double Precision (DP) Compilation
+NumThreads= 1
+MicThreads= 1

@@ -1,0 +1,44 @@
+Best tour:
+0 11 1 8 10 14 2 4 12 9 6 13 7 15 5 3 0 
+Cost = 275
+Elapsed time = 3.582512e+01 seconds
+Best tour:
+0 1 7 11 4 5 13 12 3 8 15 9 2 10 6 14 0 
+Cost = 206
+Elapsed time = 3.548652e+00 seconds
+Best tour:
+0 9 2 11 6 12 15 3 1 5 7 13 4 8 10 14 0 
+Cost = 168
+Elapsed time = 1.424356e+00 seconds
+Best tour:
+0 3 7 12 1 11 8 2 15 13 6 14 4 9 10 5 0 
+Cost = 161
+Elapsed time = 3.488864e+00 seconds
+Best tour:
+0 13 12 9 10 15 8 1 11 3 5 2 4 7 14 6 0 
+Cost = 144
+Elapsed time = 1.366731e+00 seconds
+Best tour:
+0 1 4 3 12 10 2 6 14 5 9 7 8 15 11 13 0 
+Cost = 181
+Elapsed time = 2.065715e+00 seconds
+Best tour:
+0 11 15 14 3 7 1 5 2 10 12 13 8 6 9 4 0 
+Cost = 147
+Elapsed time = 1.607374e+00 seconds
+Best tour:
+0 3 1 2 15 6 9 13 10 11 4 14 7 8 12 5 0 
+Cost = 169
+Elapsed time = 2.294935e+00 seconds
+Best tour:
+0 4 9 13 10 2 12 11 3 7 5 1 14 6 8 15 0 
+Cost = 187
+Elapsed time = 3.659100e+00 seconds
+Best tour:
+0 1 13 10 14 11 15 12 7 8 9 6 4 5 3 2 0 
+Cost = 139
+Elapsed time = 5.487990e-01 seconds
+Best tour:
+0 7 2 10 14 12 8 9 4 11 3 6 15 13 5 1 0 
+Cost = 170
+Elapsed time = 4.233416e+00 seconds

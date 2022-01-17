@@ -1,0 +1,17 @@
+Iterative Closest Point Benchmark v6
+HostOffloadNative= 0 (0=host,1=offload,2=native
+Runtime= 871.839 seconds
+>>>GigaFlops: 11.470
+0: ttotresid: 0.244645
+19: ttotresid: 0.000900025
+argv[0]= './icpfltaossse.exe'
+argv[1]= '0'
+argv[2]= '1'
+argv[3]= '500'
+argv[4]= '500'
+19: ttotresid: 0.000900025
+Runtime= 871.839 seconds
+Array of Structures (AoS) Compilation
+Single Precision (SP) Compilation
+NumThreads= 1
+MicThreads= 1

@@ -1,0 +1,4 @@
+Best tour: 0 5 10 18 2 19 11 14 17 4 16 15 6 7 9 12 8 1 3 13 0 
+
+Cost = 240
+Elapsed time = 4.198548e+02 seconds

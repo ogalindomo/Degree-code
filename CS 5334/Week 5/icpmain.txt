@@ -1,0 +1,94 @@
+Intel(R) Advisor can now assist with vectorization and show optimization
+  report messages with your source code.
+See "https://software.intel.com/en-us/intel-advisor-xe" for details.
+
+
+Begin optimization report for: main(int, char **)
+
+    Report from: Vector optimizations [vec]
+
+
+LOOP BEGIN at icpmain.cpp(307,2)
+<Peeled loop for vectorization>
+LOOP END
+
+LOOP BEGIN at icpmain.cpp(307,2)
+   remark #15300: LOOP WAS VECTORIZED
+LOOP END
+
+LOOP BEGIN at icpmain.cpp(307,2)
+<Remainder loop for vectorization>
+LOOP END
+
+LOOP BEGIN at icpmain.cpp(345,2)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at icpmain.cpp(350,3)
+      remark #25460: No loop optimizations reported
+   LOOP END
+LOOP END
+
+LOOP BEGIN at icpmain.cpp(450,14)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at icpmain.cpp(461,3)
+   <Peeled loop for vectorization>
+   LOOP END
+
+   LOOP BEGIN at icpmain.cpp(461,3)
+      remark #15300: LOOP WAS VECTORIZED
+   LOOP END
+
+   LOOP BEGIN at icpmain.cpp(461,3)
+   <Remainder loop for vectorization>
+   LOOP END
+
+   LOOP BEGIN at icpmain.cpp(609,10)
+      remark #25460: No loop optimizations reported
+   LOOP END
+
+   LOOP BEGIN at icpmain.cpp(635,3)
+
+      LOOP BEGIN at icpmain.cpp(639,4)
+      LOOP END
+
+      LOOP BEGIN at icpmain.cpp(639,4)
+      LOOP END
+
+      LOOP BEGIN at icpmain.cpp(639,4)
+      LOOP END
+   LOOP END
+
+   LOOP BEGIN at icpmain.cpp(643,4)
+   LOOP END
+LOOP END
+
+LOOP BEGIN at icpmain.cpp(489,3)
+   remark #25460: No loop optimizations reported
+
+   LOOP BEGIN at icpmain.cpp(508,7)
+      remark #25460: No loop optimizations reported
+
+      LOOP BEGIN at icpmain.cpp(512,10)
+         remark #25460: No loop optimizations reported
+
+         LOOP BEGIN at icpmain.cpp(536,7)
+            remark #15300: LOOP WAS VECTORIZED
+         LOOP END
+
+         LOOP BEGIN at icpmain.cpp(536,7)
+         <Remainder loop for vectorization>
+            remark #15301: REMAINDER LOOP WAS VECTORIZED
+         LOOP END
+
+         LOOP BEGIN at icpmain.cpp(536,7)
+         <Remainder loop for vectorization>
+         LOOP END
+      LOOP END
+   LOOP END
+
+   LOOP BEGIN at icpmain.cpp(562,6)
+      remark #25460: No loop optimizations reported
+   LOOP END
+LOOP END
+===========================================================================
