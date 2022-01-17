@@ -1,0 +1,9 @@
+Spectrogram: Is a representation of the frequencies that compose a waveform based on time. It allows to see the strength, how big amplitudes are, by frequency of wave present. Thus, you may visualize with this diagram the dimensions of time, frequency, and amplitude.
+
+Formant: Sections of the spectrogram where an area of high-darkness/high amplitude compared to the overall amplitude of other frequencies is observed. More simply, areas of high amplitude in a spectrogram.
+
+continuous speech: Is a kind of speech, at least in my understanding, in which everything is being said non-stop. This is a great problem because the speech must be segmented.
+
+Noisy channel model: Is a model that basically tries to learn how words are being delivered through a hypothetical sound channel, in the case of humans this might be the from the larynx all the way through the mouth to reach the receiver. By learning the distortions that channel creates then the model tries to predict what is being said by the sound origin. 
+
+prior probability: Is the probability based on experience of seeing something, for example how many times have I seen a vs how many times have I seen b. The prior is updated as we update what we continue experimenting/training a model.
